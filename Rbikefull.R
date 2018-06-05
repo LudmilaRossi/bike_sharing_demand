@@ -1,5 +1,5 @@
 ## EXPERIMENTO Y ENTRENAMIENTO CON DATASETS DIFERENTES.
-## ANALISIS BASICO Y CALENDARHEAT
+## Exercice 1: ANALISIS BASICO Y CALENDARHEAT
 library("corrplot")
 setwd('R')
 BIKEdata1 <- read_csv("BIKE1.csv")
@@ -51,7 +51,7 @@ green_color_ramp = brewer.pal(9, "Greens")
 calendarHeat(BIKE1$datetime, BIKE1$casual, varname= "Casual Daily Bike Use", color="green_color_ramp")
 
 ## ----------------------------------------------------------------------------
-## PROJECT KAGGLE - SOLUTION FROM: https://github.com/adityashrm21/Bike-Sharing-Demand-Kaggle
+## Exercice 2: PROJECT KAGGLE - SOLUTION FROM: https://github.com/adityashrm21/Bike-Sharing-Demand-Kaggle
 
 #loading the required libraries
 library("rpart")
